@@ -1,0 +1,134 @@
+{
+  "majority_top_4": {
+    "models": [
+      "yolov11",
+      "yolov5",
+      "yolov8",
+      "yolov9"
+    ],
+    "strategy": "majority",
+    "precision": 0.4871721778791334,
+    "recall": 0.3087066473988439,
+    "f1_score": 0.3779301194161875,
+    "mAP50": 0.5568554265391332,
+    "inference_time_ms": 377.7660368311703,
+    "fps": 2.6471410939647706,
+    "per_class_AP50": {
+      "IC": 0.6732480662669835,
+      "Capacitor": 0.062007848046056795,
+      "Connector": 0.6092576750969223,
+      "Electrolytic_Capacitor": 0.8829081167465703
+    }
+  },
+  "unanimous_top_4": {
+    "models": [
+      "yolov11",
+      "yolov5",
+      "yolov8",
+      "yolov9"
+    ],
+    "strategy": "unanimous",
+    "precision": 0.5156121610517667,
+    "recall": 0.2266979768786127,
+    "f1_score": 0.31493099121706397,
+    "mAP50": 0.4137884816474058,
+    "inference_time_ms": 375.86996648051814,
+    "fps": 2.660494557103251,
+    "per_class_AP50": {
+      "IC": 0.5418702554786874,
+      "Capacitor": 0.03850042428007566,
+      "Connector": 0.34210997950412697,
+      "Electrolytic_Capacitor": 0.7326732673267331
+    }
+  },
+  "weighted_top_4": {
+    "models": [
+      "yolov11",
+      "yolov5",
+      "yolov8",
+      "yolov9"
+    ],
+    "strategy": "weighted",
+    "precision": 0.5241576605212969,
+    "recall": 0.2978684971098266,
+    "f1_score": 0.3798663902326653,
+    "mAP50": 0.5398476331504634,
+    "inference_time_ms": 376.06537667531956,
+    "fps": 2.659112117261892,
+    "per_class_AP50": {
+      "IC": 0.6516728352072614,
+      "Capacitor": 0.059678424426261714,
+      "Connector": 0.578044305889292,
+      "Electrolytic_Capacitor": 0.8699949670790385
+    }
+  },
+  "majority_top_6": {
+    "models": [
+      "yolov11",
+      "yolov5",
+      "yolov8",
+      "yolov9",
+      "yolov12",
+      "yolov10"
+    ],
+    "strategy": "majority",
+    "precision": 0.4845714285714286,
+    "recall": 0.3063583815028902,
+    "f1_score": 0.37538733953076586,
+    "mAP50": 0.5493590019434151,
+    "inference_time_ms": 659.2612711818173,
+    "fps": 1.516849303474723,
+    "per_class_AP50": {
+      "IC": 0.6783499420254457,
+      "Capacitor": 0.05994124546238969,
+      "Connector": 0.5898543284920799,
+      "Electrolytic_Capacitor": 0.8692904917937452
+    }
+  },
+  "unanimous_top_6": {
+    "models": [
+      "yolov11",
+      "yolov5",
+      "yolov8",
+      "yolov9",
+      "yolov12",
+      "yolov10"
+    ],
+    "strategy": "unanimous",
+    "precision": 0.4576107899807322,
+    "recall": 0.17160404624277456,
+    "f1_score": 0.24960588544403572,
+    "mAP50": 0.30971714048585786,
+    "inference_time_ms": 659.1158847532494,
+    "fps": 1.5171838869797019,
+    "per_class_AP50": {
+      "IC": 0.42699853354095657,
+      "Capacitor": 0.026908892410555964,
+      "Connector": 0.18100073995231478,
+      "Electrolytic_Capacitor": 0.6039603960396043
+    }
+  },
+  "weighted_top_6": {
+    "models": [
+      "yolov11",
+      "yolov5",
+      "yolov8",
+      "yolov9",
+      "yolov12",
+      "yolov10"
+    ],
+    "strategy": "weighted",
+    "precision": 0.47288089397656036,
+    "recall": 0.31340317919075145,
+    "f1_score": 0.3769690385659968,
+    "mAP50": 0.5457896979502614,
+    "inference_time_ms": 660.9216363506489,
+    "fps": 1.5130386796256352,
+    "per_class_AP50": {
+      "IC": 0.6739894949742335,
+      "Capacitor": 0.06005616531652336,
+      "Connector": 0.5798226397165439,
+      "Electrolytic_Capacitor": 0.8692904917937452
+    }
+  }
+}
